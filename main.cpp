@@ -53,51 +53,51 @@ Sub Object 1: Steering Wheel
     Name 4 things you'll find on the:    Steering Wheel
         1) paddle shifters
         2) 'cruise control' controls
-        3) 
-        4) 
+        3) horn
+        4) media player controls
     Name 2 things you can do with the:   Steering Wheel
         1) adjust cruise control settings.
-        2)
+        2) honk the horn
         
 Sub Object 2: Instrument Cluster
     Name 4 things you'll find on the:   Instrument Cluster
-        1)
-        2)
-        3)
-        4)
+        1) speedometer
+        2) odometer
+        3) turn signal indicators
+        4) fuel gauge
     Name 3 things you can do with the:   Instrument Cluster
-        1)
-        2)
-        3)
+        1) monitor speed
+        2) check fuel gauge
+        3) confirm milage
     
 Sub Object 3: Environment Controls
     Name 3 things you'll find on the:    Environment Controls
-        1)
-        2)
-        3)
+        1) fan speed controls
+        2) defroster 
+        3) temperature controls
     Name 3 things you can do with the:   Environment Controls
-        1)
-        2)
-        3)
+        1) turn down A/C
+        2) turn on defroster
+        3) increase fan speed
 
 Sub Object 4: Infotainment System
     Name 3 things you'll find on the:    Infotainment System
-        1)
-        2)
-        3)
+        1) power button
+        2) volume controls
+        3) media navigation controls
     Name 3 things you can do with the:   Infotainment System
-        1)
-        2)
-        3)
+        1) turn on infotainment system
+        2) turn up volume
+        3) skip to next song
 
 Sub Object 5: Seat 
     Name 3 things you'll find on the:    Seat
-        1)
-        2)
-        3)
+        1) seat belt
+        2) recliner controls
+        3) arm rest
     Name 2 things you can do with the:   Seat
-        1)
-        2)
+        1) buckle seat belt
+        2) recline seat
 */
 
 /*
@@ -155,62 +155,8 @@ Part 1b Assignment: 1 Step
 */
 
 /*
-Thing 1)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
-/*
-Thing 2)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
-/*
-Thing 3)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 4)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
- /*
 Part 1c - Lesson
 You have just finished practicing writing out a UDT that is has 
 5 properties and can perform 3 actions.  
@@ -279,19 +225,7 @@ Define an object that is made of 5 sub-objects.
     you'll define these 5 sub-objects in Part 1d.
 */
 
-/*
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
+
 
 /*
 Part 1d - Lesson
@@ -384,75 +318,6 @@ each property for UDTs 5 - 9.
 Step 3 is written below UDTs 5 - 9
 */
 
-/*
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
 /*
 ===================
@@ -472,8 +337,136 @@ After you have MOVED your 10 UDTs, send me a DM with your pull request link.
 I will review the pseudo-code that you have written.
 */
 
+/*
+1) Electric Guitar
+5 properties:
+    1) number of strings
+    2) length of neck
+    3) number of songs played
+    4) type of pick-ups
+    5) tuning
+3 things it can do:
+    1) play a song
+    2) tune to key
+    3) change strings
 
 
+2) Gaming PC
+5 properties:
+    1) number of CPU cores
+    2) number of SSD cards
+    3) number of fans
+    4) height of PC
+    5) number of USB ports
+3 things it can do:
+    1) play games
+    2) code software
+    3) play youtube videos
+ 
+
+3) Phone
+5 properties:
+    1) Number of buttons
+    2) number of screens
+    3) number of speakers
+    4) percentage of charge
+    5) number of cameras
+3 things it can do:
+    1) make a call
+    2) text other people
+    3) set an alarm
+ 
+
+4) Audio Interface
+5 properties:
+    1) number of knobs
+    2) number of midi inputs
+    3) number of outputs
+    4) number of inputs
+    5) amount of gain
+3 things it can do:
+    1) convert analog to digital signal
+    2) turn up gain
+    3) record audio
+
+
+5) GPU
+5 properties:
+    1) brand (std::string)
+    2) clock speed (float)
+    3) amount of power consumed (watts) (float)
+    4) number of output ports (int)
+    5) amount of memory (float)
+3 things it can do:
+    1) Run games
+    2) render videos
+    3) mine crypto
+
+
+6) CPU
+5 properties:
+    1) brand (std::string)
+    2) clock speed (float)
+    3) number of cores (int)
+    4) number of threads (int)
+    5) number of bits (int)
+3 things it can do:
+    1) perform basic arithmatic 
+    2) perform input operations
+    3) decode data
+ 
+
+7) Display
+5 properties:
+    1) number of pixels (int)
+    2) size of display in inches (double)
+    3) brightness of diplay in nits (int)
+    4) number of displays (int)
+    5) pixels per inch (int)
+3 things it can do:
+    1) show home screen
+    2) turn on
+    3) lower brightness
+
+
+8) Keyboard
+5 properties:
+    1) number of keys (int)
+    2) brand of switch (std::string)
+    3) backlight power consumption (float)
+    4) height of keyboard in inches (float)
+    5) length of keyboard in inches (float)
+3 things it can do:
+    1) turn on backlight
+    2) read fingerprint
+    3) type a message
+ 
+
+9) RAM
+5 properties:
+    1) number of ram sticks (int)
+    2) total amount of memory (int)
+    3) memory speed (mHz) (int)
+    4) brand (std::string)
+    5) type of RAM (std::string)
+3 things it can do:
+    1) store short term memory
+    2) send information to CPU
+    3) clear cache
+
+	
+10) Macbook
+5 properties:
+    1) GPU
+    2) CPU
+    3) Display
+    4) Keyboard
+    5) RAM
+3 things it can do:
+    1) Create music
+    2) Play online videos
+    3) Type emails
+*/
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
