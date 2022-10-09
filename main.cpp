@@ -340,11 +340,11 @@ I will review the pseudo-code that you have written.
 /*
 1) Electric Guitar
 5 properties:
-    1) number of strings
-    2) length of neck
-    3) number of songs played
-    4) type of pick-ups
-    5) tuning
+    1) number of strings (int)
+    2) length of neck (float)
+    3) number of songs played (int)
+    4) type of pick-ups (std::string)
+    5) tuning (std::string)
 3 things it can do:
     1) play a song
     2) tune to key
@@ -353,11 +353,11 @@ I will review the pseudo-code that you have written.
 
 2) Gaming PC
 5 properties:
-    1) number of CPU cores
-    2) number of SSD cards
-    3) number of fans
-    4) height of PC
-    5) number of USB ports
+    1) number of CPU cores (int)
+    2) number of SSD cards (int)
+    3) number of fans (int)
+    4) height of PC (float)
+    5) number of USB ports (int)
 3 things it can do:
     1) play games
     2) code software
@@ -366,11 +366,11 @@ I will review the pseudo-code that you have written.
 
 3) Phone
 5 properties:
-    1) Number of buttons
-    2) number of screens
-    3) number of speakers
-    4) percentage of charge
-    5) number of cameras
+    1) Number of buttons (int)
+    2) number of screens (int)
+    3) number of speakers (int)
+    4) percentage of charge (float)
+    5) number of cameras (int)
 3 things it can do:
     1) make a call
     2) text other people
@@ -379,11 +379,11 @@ I will review the pseudo-code that you have written.
 
 4) Audio Interface
 5 properties:
-    1) number of knobs
-    2) number of midi inputs
-    3) number of outputs
-    4) number of inputs
-    5) amount of gain
+    1) number of knobs (int)
+    2) number of midi inputs (int)
+    3) number of outputs (int)
+    4) number of inputs (int)
+    5) amount of gain (int)
 3 things it can do:
     1) convert analog to digital signal
     2) turn up gain
