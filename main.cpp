@@ -287,7 +287,7 @@ struct Phone
     // Number of buttons (int)
 	int numberOfButtons = 2;
     // number of screens (int)
-	int numberOfScreens = 1;
+    int numberOfScreens = 1;
     // number of speakers (int)
 	int numberOfSpeakers = 2;
     // percentage of charge (float)
